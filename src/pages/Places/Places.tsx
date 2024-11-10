@@ -1,9 +1,9 @@
 import './Places.scss'
-import vyborgImage from '/src/assets/vyborg.jpeg';
-import oranImage from '/src/assets/oran.jpeg';
-import moscowImage from '/src/assets/moscow.jpeg';
-import kazanImage from '/src/assets/kazan.jpeg';
-import kazan2Image from '/src/assets/kazan2.jpeg';
+import vyborgImage from '/public/vyborg.jpeg';
+import oranImage from '/public/oran.jpeg';
+import moscowImage from '/public/moscow.jpeg';
+import kazanImage from '/public/kazan.jpeg';
+import kazan2Image from '/public/kazan2.jpeg';
 
 function Places() {
     return ( 
