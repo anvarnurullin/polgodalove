@@ -1,11 +1,11 @@
 import './Films.scss'
-import topiImage from '/public/topi.jpg';
-import challengersImage from '/public/challengers.jpg';
-import insideOutImage from '/public/Inside_Out_2_poster.jpg';
-import soulImage from '/public/soul1.webp';
-import oppenheimerImage from '/public/oppenheimer.jpg';
-import bbImage from '/public/bb.webp';
-import bcsImage from '/public/bcs.jpg';
+import topiImage from '../../assets/topi.jpg';
+import challengersImage from '../../assets/challengers.jpg';
+import insideOutImage from '../../assets/Inside_Out_2_poster.jpg';
+import soulImage from '../../assets/soul1.webp';
+import oppenheimerImage from '../../assets/oppenheimer.jpg';
+import bbImage from '../../assets/bb.webp';
+import bcsImage from '../../assets/bcs.jpg';
 
 function Films() {
     return (
