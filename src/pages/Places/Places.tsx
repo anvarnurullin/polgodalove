@@ -1,4 +1,9 @@
 import './Places.scss'
+import vyborgImage from '/src/assets/vyborg.jpeg';
+import oranImage from '/src/assets/oran.jpeg';
+import moscowImage from '/src/assets/moscow.jpeg';
+import kazanImage from '/src/assets/kazan.jpeg';
+import kazan2Image from '/src/assets/kazan2.jpeg';
 
 function Places() {
     return ( 
@@ -7,31 +12,31 @@ function Places() {
             <div className="films-container">
                 <a href="http://www.etomesto.ru/trackab26311243/" target="_blank">
                     <div className="film-card">
-                    <img src="/vyborg.jpeg" alt="Топи" />
+                    <img src={vyborgImage} alt="Выборг" />
                     <p>Выборг</p>
                     </div>
                 </a>
                 <a href="http://www.etomesto.ru/track26bc311210/" target="_blank">
                 <div className="film-card">
-                    <img src="/kazan.jpeg" alt="" />
+                    <img src={kazanImage} alt="Казань" />
                     <p>Казань</p>
                 </div>
                 </a>
                 <a href="http://www.etomesto.ru/track890f311242/" target="_blank">
                 <div className="film-card">
-                    <img src="/oran.jpeg" alt="" />
+                    <img src={oranImage} alt="Ораниенбаум" />
                     <p>Ораниенбаум</p>
                 </div>
                 </a>
                 <a href="http://www.etomesto.ru/track928d311218/" target="_blank">
                 <div className="film-card">
-                    <img src="/moscow.jpeg" alt="" />
+                    <img src={moscowImage} alt="Москва" />
                     <p>Москва</p>
                 </div>
                 </a>
                 <a href="http://www.etomesto.ru/track1a1a311971/" target="_blank">
                 <div className="film-card">
-                    <img src="/kazan2.jpeg" alt="" />
+                    <img src={kazan2Image} alt="Казань 2" />
                     <p>Казань 2</p>
                 </div>
                 </a>

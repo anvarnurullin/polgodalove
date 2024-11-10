@@ -1,4 +1,11 @@
 import './Films.scss'
+import topiImage from '/src/assets/topi.jpg';
+import challengersImage from '/src/assets/challengers.jpg';
+import insideOutImage from '/src/assets/Inside_Out_2_poster.jpg';
+import soulImage from '/src/assets/soul1.webp';
+import oppenheimerImage from '/src/assets/oppenheimer.jpg';
+import bbImage from '/src/assets/bb.webp';
+import bcsImage from '/src/assets/bcs.jpg';
 
 function Films() {
     return (
@@ -6,31 +13,31 @@ function Films() {
             <h1>Фильмы и сериалы, которые мы смотрели вместе:</h1>
             <div className="films-container">
                 <div className="film-card">
-                    <img src="/topi.jpg" alt="Топи" />
+                    <img src={topiImage} alt="Топи" />
                     <p>Топи</p>
                 </div>
                 <div className="film-card">
-                    <img src="/challengers.jpg" alt="" />
+                    <img src={challengersImage} alt="" />
                     <p>Challengers</p>
                 </div>
                 <div className="film-card">
-                    <img src="/Inside_Out_2_poster.jpg" alt="" />
+                    <img src={insideOutImage} alt="" />
                     <p>Inside Out 2</p>
                 </div>
                 <div className="film-card">
-                    <img src="/soul1.webp" alt="" />
+                    <img src={soulImage} alt="" />
                     <p>Soul</p>
                 </div>
                 <div className="film-card">
-                    <img src="/oppenheimer.jpg" alt="" />
+                    <img src={oppenheimerImage} alt="" />
                     <p>Oppenheimer</p>
                 </div>
                 <div className="film-card">
-                    <img src="/bb.webp" alt="" />
+                    <img src={bbImage} alt="" />
                     <p>Breaking Bad</p>
                 </div>
                 <div className="film-card">
-                    <img src="/bcs.jpg" alt="" />
+                    <img src={bcsImage} alt="" />
                     <p>Better Call Saul</p>
                 </div>
             </div>
