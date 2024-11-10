@@ -1,0 +1,65 @@
+.app-container {
+    background-image: url("/67660.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    padding-top: 80px;
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+}
+
+.main-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container {
+    display: flex;
+    width: 90%;
+    max-width: 1400px;
+    gap: 1rem;
+    align-items: center;
+}
+
+.text-container {
+    flex: 1;
+    padding-right: 1rem;
+    padding-left: 10rem;
+}
+
+.photo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo-placeholder {
+  width: 600px;
+  height: 600px;
+  background-image: url('/photo_2024-09-30_16-41-30.jpg');
+  background-size: cover;
+  background-position: right center;
+  clip-path: path('M363,21c50.2,5,102.8,11.4,145.8,38.2s74.6,76.2,81.2,127c6.6,50.8-19.6,102.8-53.4,145.2 c-33.8,42.4-75.2,75-107,115c-31.8,40-54,87.4-91.2,113.6c-37.2,26.2-89.4,31.2-134.9,15.8c-45.5-15.4-84.6-51.4-111.2-94.4 c-26.6-43-39.1-87.4-43.8-144.6c-5.2-51.6-1.6-104.6,21.2-148.6s64.6-79,115.2-95.4C232.8,75.6,297,74.2,363,21z');
+  margin-right: 5rem;
+}
+
+.main-page {
+    flex: 1;
+    overflow-y: auto;
+}
